@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <title>littlelemon store</title>
+        <link rel="stylesheet" href="styles.css">
+    </header>
+
+    <body>
+        <header>
+            <img src="logo.png">
+        </header>
+        <main>
+            <div class="container">
+                <h1 classname = "title"> Booking </h1>
+                <form>
+                    <div>
+                        <label for="user_mail">Email Address</label><br>
+                        <input type="email" id="user_mail" name="user_mail" minlength="2" required>
+                    </div>
+                    <div>
+                        <label for="date_booking">Date of Booking</label>
+                        <input type="date" id="date_booking" name="date_booking" required>
+                    </div>
+                    <div>
+                        <label for="number_people">Number of People</label>
+                        <input type="range" id="number_people" name="number_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+                        <output>4</output>
+                    </div>
+                        <label>
+                            <input type="checkbox" id="indoor" name="indoor" value="indoor" required>
+                            I agree to the terms and conditions
+                        </label>
+                    </div>
+                    <div>
+                        <button type="submit">Book now</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+</html>
