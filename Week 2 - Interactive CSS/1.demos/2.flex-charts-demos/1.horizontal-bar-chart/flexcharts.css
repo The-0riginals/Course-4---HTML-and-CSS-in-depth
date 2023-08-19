@@ -6,6 +6,7 @@
 .row .label {
     flex: 0 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
 }
 
 .row .container {

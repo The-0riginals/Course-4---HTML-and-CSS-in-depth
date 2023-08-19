@@ -61,7 +61,7 @@
 
 
 /* While reviewing the code, note the following:
-- The grid template areas are defined as "header" "left" "main" "right" "footer" but for a small device with a screen width of 440px or less, it is defined as "header header header" "left main right" "footer footer footer" using a media query.
+- The grid template areas are defined as "header" "left" "main" "right" "footer" but for a small device with a screen width of 440px or less, it is defined as "header header header" "left main right" "footer footer footer" using a media query. => i think it should be 440px and plus, not 440px or less.
 - The grid-rows property value also changes based on the media query.
 - T​he values for the number of rows you add for grid-template-rows and number of columns you add for grid-template-columns must match the dimensions of the grid-template-areas.  
 - grid-area that has undefined rules will appear empty. (Does not happen with the example above.)

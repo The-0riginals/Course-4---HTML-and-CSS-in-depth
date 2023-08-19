@@ -1,7 +1,8 @@
 body {
     display: grid;
-    height: 150vh;
-    grid-template-rows: auto 1fr auto;
+    height: 150vh; /* 150% of the viewport height */
+    grid-template-rows: auto 1fr auto; /* header, main, footer */
+    /* fr = fraction used to divide the available space */
 }
 
 header {
@@ -14,6 +15,7 @@ main {
     background-color: #395B64;
     text-align: center;
     padding: 2em;
+
 }
 
 footer {

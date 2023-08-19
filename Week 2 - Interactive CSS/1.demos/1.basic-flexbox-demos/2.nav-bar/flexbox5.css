@@ -7,7 +7,8 @@
     background-color: #2b2d42;
     display: flex;
     flex-flow: row wrap;
-    justify-content: stretch;
+    justify-content: flex-end; /* attrubute: space-between, space-around, space-evenly, flex-start, flex-end, center */
+    
 }
 
 .container li {
