@@ -4,5 +4,34 @@
 }
 
 .textual:hover {
-    box-shadow: 5px 0px 25px black;
+    box-shadow: 5px 0px 25px rgb(146, 91, 23);
+}
+
+/* element selector */
+h3 {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #EDEFEE;
+}
+h3::before{
+    content: "^^";
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 10px;
+
+}
+h3::after{
+    content: "<3";
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 10px;
 }

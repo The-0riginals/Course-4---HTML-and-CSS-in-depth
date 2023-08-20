@@ -15,3 +15,11 @@ img + p {
     font-size: small;
     font-family: Verdana;
 }
+
+img  p {
+    color: green;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    font-size: small;
+    font-family: Verdana;
+}

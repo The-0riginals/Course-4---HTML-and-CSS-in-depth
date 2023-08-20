@@ -14,10 +14,17 @@
             font-family: Cambria;
         }
 
-        div~ul {
+        div ~ ul {
             background-color: #EDEFEE;
             color: #495E57;
-            box-shadow: inset 1px 1px 3px #333333;
+            box-shadow: inset 1px 1px 3px #333333; /* inset shadow: horizontal offset, vertical offset, blur, color */
+            padding: 10px;
+        }
+        
+        div + ol {
+            background-color: gray;
+            color: #495E57;
+            box-shadow: inset 1px 1px 3px #333333; /* inset shadow: horizontal offset, vertical offset, blur, color */
             padding: 10px;
         }
     </style>
@@ -27,7 +34,7 @@
     <!-- HTML CODE -->
     <li><img src="LL.png" style="width: 150px;">
         <!-- Restaurant Info -->
-        <p><b>Basic Info about Little Lemon</b></p>
+        <p><b>Basic Info about Little Lemon</b></p> <!--<b> tag is used to bold the text--> 
         <div>About</div>
         <ul>
             <li>Based in Chicago, Illinois</li>
@@ -37,11 +44,11 @@
         <!-- Owner Info -->
         <p><b>Info about the owners</b></p>
         <div>Employee/Owner</div>
-        <ul>
+        <ol>
             <li>Little Lemon is owned by two Italian brothers, Mario and Adrian</li>
             <li>Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the marketing for
                 the restaurant</li>
-        </ul>
+        </ol>
     </li>
 </body>
 
