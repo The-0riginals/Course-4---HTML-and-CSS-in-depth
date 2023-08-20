@@ -9,8 +9,8 @@
 }
 
 .box:hover {
-    transform: rotateZ(60deg);
+    transform: rotateZ(60deg);/* rotate the box 60 degrees, you can try X,Y also */
     background-color: lightcoral;
     opacity: 50%;
-    transition: 2s;
+    transition: 0.2s;
 }

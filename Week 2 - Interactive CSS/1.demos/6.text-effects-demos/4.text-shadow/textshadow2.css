@@ -1,7 +1,7 @@
 .glow {
     color: rgb(237, 237, 151);
     text-shadow:
-        0 0 7px #fff,
+        0 0 7px #fff, /* multiple shadows */
         0 0 10px #fff,
         0 0 31px #fff,
         0 0 55px rgb(255, 226, 4),

@@ -1,11 +1,11 @@
 .a {
     margin: 30px;
-    transform: skewX(20deg);
+    transform: skewX(20deg);/* skewX(20deg) used to skew the element along the X-axis by 20 degrees */
     transition: 5s;
 }
 
 .b {
     margin: 100px;
-    transform: rotate(20deg);
+    transform: rotate(20deg);/* rotate(20deg) used to rotate the element by 20 degrees */
     transition: 5s;
 }

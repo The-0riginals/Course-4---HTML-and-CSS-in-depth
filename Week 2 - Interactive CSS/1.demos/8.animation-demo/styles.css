@@ -2,12 +2,12 @@
 
     /* Starting state of the animation */
     from {
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); 
     }
 
     /* Ending state of the animation */
     to {
-        transform: translate3d(640px, 0, 0);
+        transform: translate3d(0,640px,0);
     }
 }
 
@@ -16,7 +16,7 @@
     height: 80px;
     border-radius: 50%;
     background-color: #62687F;
-    animation: bounce 2s linear;
-    animation-direction: alternate;
+    animation: bounce 2s linear; /* call Bounce; 2s is the duration of the animation */
+    animation-direction: reverse;/* bounce back and forth, attributes are normal, reverse, alternate, alternate-reverse */
     animation-iteration-count: infinite;
 }
