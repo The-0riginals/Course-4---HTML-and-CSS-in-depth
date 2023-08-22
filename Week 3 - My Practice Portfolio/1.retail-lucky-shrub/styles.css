@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: Monaco;
+
+    
+}
+body {
+    background-color: #E1FFEE;
+    font-family: 'Open Sans', sans-serif; /* Use the loaded font */
+    background-color: #E1FFEE;
+}
+
+.navbar{
+    background-color: #E1FFEE;
+    position: fixed;
+    width: 100%;
+
+    /*how can i make it stick to the top?*/
+    top: 0;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+
+
+}
+
+.logo  img {
+    padding: 10px 0;
+    width: 50px;
+
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu ul li{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 20px 0;
+
+}
+
+.menu ul li a{
+    padding: 0 20px;
+    color: saddlebrown;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Open Sans", serif !important;
+}
+.menu ul li a:hover{
+    color: #749F82!important;
+    text-shadow: 2px 2px 8px #C7F2A4;
+}
+
+
+
+/*main*/
+
+.container-main{
+    margin: 20px;
+    /* how can i make it display under the navbar?*/
+    margin-top: 120px;
+}
+
+.hero{
+    background-image: url("./assets/Asset\ 4.png") ;
+    background-position: center;
+    background-size: cover; /* make it fully cover the container*/
+    border-radius: 20px;
+
+    width: 100%;
+}
+
+.hero h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-shadow: 2px 2px 8px wheat;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-shadow: 2px 2px 8px wheat;
+}
+
+.main-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+.article{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #749F82;
+}
+.article a{
+    color: white;
+    text-decoration: none;
+}
+.article h2{
+    font-size: larger;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.article p{
+    font-size: medium;
+    color: #000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 15vh;
+    overflow: auto ;/*scroll*/
+}
+
+.article img{
+    width: 100%;
+    border-radius: 20px;
+
+
+}
+
+.article a:hover{
+    text-shadow: 2px 2px 8px wheat;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 90%;
+}
+.container-footer p{
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .main-sections{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1rem;
+        padding: 10px;
+    }
+
+}
+
